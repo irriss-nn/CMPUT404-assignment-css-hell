@@ -1,0 +1,321 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.h{
+    height: 100vh;
+    width: 100%;
+    background-image: url(bg.jpg);
+    background-size:cover;
+    background-position: center;
+
+
+}
+nav{
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 16%;
+}
+.l{
+    color:white;
+    font-size: 55px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span{
+    color:rgb(55, 126, 126);
+} 
+nav ul li{
+    list-style-type: none;
+    display:inline-block;
+    padding:20px;
+    font-size: 19px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+    text-transform:capitalize;
+    
+}
+nav ul li a:hover{
+    color:rgb(134, 169, 233)
+
+}
+.iris {
+    border-radius: 15px;
+    display: flex;
+    max-width: 90ex;
+    max-height: 500ex;
+    overflow: auto;
+    margin-left: 16ex;
+    opacity:.99;
+    box-shadow:1 0 15px 30px #ffffff inset;
+}
+.iris:after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    box-shadow:0 0 50px 30px #ffffff inset;
+} 
+   
+.content{
+    position:absolute;
+    top:50%;
+    left:8%;
+    transform: translayeY(-50);
+
+}
+.m{
+    height: 100vh;
+    width: 100%;
+    background-image: url(bg.jpg);
+    background-size:cover;
+    background-position: center;
+    color: white;
+}
+.history{
+    color:rgb(7, 80, 114);
+    text-decoration:none;
+    font-weight:bold;
+    text-align: center;
+    text-transform:capitalize;
+    margin-top: 20px;
+    margin-bottom:20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 450%;
+    
+}
+.languages{
+    color:rgb(4, 30, 65);
+    text-decoration:none;
+    font-weight:bold;
+    text-transform:capitalize;
+    margin-top: 10px;
+    margin-bottom:30px;
+    margin-left: 20px;
+
+}
+
+.courses{
+    color:rgb(4, 30, 65);
+    text-decoration:none;
+    font-weight:bold;
+    text-transform:capitalize;
+    margin-top: 20px;
+    margin-bottom:10px;
+    margin-left: 20px;
+   
+}
+.offer{
+    margin-top: 10px;
+    line-height: 1.8;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    word-spacing: 2px;
+    letter-spacing: 0.01em;
+    margin-bottom: 20px;
+    text-transform: none;
+    text-decoration: underline rgb(3, 64, 75);
+    color:rgb(21, 44, 119)
+    
+
+}
+
+.num{
+    margin-top: 10px;
+    line-height: 1.6;
+    column-count: 9;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    word-spacing: 22px;
+    letter-spacing: 0.01em;
+    margin-bottom: 20px;
+    color:rgb(2, 33, 43);
+}
+.algorithm{
+    margin-top: 10px;
+    line-height: 1.6;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    word-spacing: 2px;
+    letter-spacing: 0.01em;
+    margin-bottom: 20px;
+    text-decoration: underline rgb(4, 37, 128);
+    color:rgb(4, 21, 59);
+
+}
+a:link {
+    color: rgb(37, 74, 196);
+    background-color: transparent;
+    word-break: 4px;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: rgb(250, 186, 103);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: rgb(13, 141, 150);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+.languages{
+    text-transform: uppercase;
+    text-shadow: 2px 2px #51cce2;
+    line-height: 1.8;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    word-spacing: 9px;
+    letter-spacing: 0.02em;
+    margin-left:20px;
+    text-decoration: underline solid rgb(22, 145, 194) 20%;    
+    color:rgb(9, 44, 77)
+   
+}
+.git{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    word-spacing: 11px;
+    letter-spacing: 0.02em;
+    margin-left:5px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    text-decoration: underline solid rgb(22, 145, 194) 20%;    
+    color:rgb(75, 74, 3)  
+
+}
+.skills-inner{
+    height:900px
+}
+.skills{
+background-color:rgb(199, 225, 243);
+max-width: 50%;
+max-height: 700px;
+scrollbar-color: rgb(99, 129, 150) rgb(13, 45, 94);
+scrollbar-width: thin;
+opacity: .7;
+overflow-y: scroll;
+color: rgb(47, 47, 36);
+font-weight: bold;
+font-style:oblique;
+text-align: justify;
+float: left;
+}
+:-moz-scrollbar {
+    width: 12px;
+    height: 12px;
+    }
+    
+    ::-moz-scrollbar-track {
+    border: 1px solid yellowgreen;
+    border-radius: 10px;
+    }
+    
+    ::-moz-scrollbar-thumb {
+    background: yellowgreen;  
+    border-radius: 10px;
+    }
+    
+    ::-moz-scrollbar-thumb:hover {
+    background: #88ba1c;  
+    } */
+
+.container:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+.right{
+    background-image: url("bg1.jpg");
+    width:800px;
+    height: 700px;
+    margin-right: 95px;
+    float: right;
+    opacity: .9;
+    border-radius: 70px
+}
+.last{
+    color:rgb(5, 23, 32);
+    text-decoration:none;
+    font-weight:bold;
+    text-align: center;
+    text-transform:capitalize;
+    margin-top: 20px;
+    margin-bottom:20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 150%;
+    opacity: 1;
+    box-shadow:0 0 35px 20px #5cabec inset;
+
+}
+.h2{
+    color: rgb(27, 114, 155);
+    margin:30px,0px,20px;
+    margin-top: 20px;
+    text-shadow: 2px 2px;
+    font-size:25px;
+    margin-left: auto;
+}
+h1{
+    color:white;
+    margin:20px,0px,20px;
+    font-size:75px;
+}
+h3{
+    color:white;
+    font-size:25px;
+    margin-bottom:20px
+}
+h4{
+    color:rgb(245, 241, 210);
+    font-size:25px;
+    letter-spacing: 2px;
+    margin-bottom:10px
+}
+.n form{
+    width:380px;
+    max-width: 100%;
+    position:relative;
+
+}
+.n form input:first-child{
+    display:inline-block;
+    width:100%;
+    padding: 14px 130px 14px 15px;
+    border:2px,solid,rgb(192, 175, 117);
+    outline:none;
+    border-radius: 30px;
+}
+.n form input:last-child{
+    position:absolue;
+    display:inline-block;
+    outline:none;
+    border:none;
+    padding: 10px 30px;
+    border-radius:30px;
+    background-color: rgb(252, 238, 180);
+    box-shadow: 0px 0px 5px rgb(2, 33, 73),0px 0px 15px rgb(1, 24, 49);
+    top:6px;
+    right:6px;
+}
+/* .skills{
+    border: none;
+    padding: 5px;
+    font: 24px/36px sans-serif;
+    width: 200px;
+    height: 2000%;
+    overflow: scroll;
+    }
+    
+    /* Scrollbar styles */
+    
