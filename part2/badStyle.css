@@ -1,0 +1,24 @@
+
+.h{
+    height: 10vh;
+    width: 100%;
+    background-color: rgb(24, 21, 23);
+  
+
+}
+
+.skills-inner{
+    height:300px
+}
+.skills{
+background-color: #0f0f0f;
+max-width: 50%;
+max-height: 200px;
+
+
+overflow-y: scroll;
+color: rgb(47, 47, 36);
+font-weight: bold;
+
+float: left;
+}
